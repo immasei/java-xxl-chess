@@ -646,7 +646,7 @@ public class App extends PApplet {
             }
         }
 
-        this.background(255, 0, 0);
+        this.background(110, 120, 130);
         this.board.draw(this);
         this.AI();
 
