@@ -110,7 +110,7 @@ highlighted.
 
 * Value of a move is tile value + piece value. The computer will choose the move with highest value.
 * If its king is under attack, it follows same rules as in `Check and Checkmate`
-* If there are multiple highest-value move, it choose a random move.
+* If there are multiple highest-value move, a random move will be chosen.
 
 ### Win and lose conditions
 
