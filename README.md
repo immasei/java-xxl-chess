@@ -8,11 +8,20 @@
 **[Overview](#Overview)**<br>
 **[Dependencies](#Dependencies)**<br>
 **[Execute](#Execute)**<br>
-**[Features Full Version](#Features-Full-Version)**<br>
+**[Board](#Board)**<br>
+**[Configuration](#Configuration)**<br>
+**[Movement](#Movement)**<br>
+**[Check and Checkmate](#Check-and-Checkmate)**<br>
+**[Ai movement](#AI-movement)**<br>
+**[Win and lose conditions](#Win-and-Lose-conditions)**<br>
+**[Extensions](#Extensions)**<br>
+
+
+
+
 
 ## Overview
-We are creating a game in Java using the Processing library
-for graphics and gradle as a dependency manager. In the game, the player must be able to move chess pieces on a chess board in order to play against an AI, ultimately capturing the opponent’s pieces and executing a strategy to checkmate the opponent’s king.
+We are creating a game in Java using the Processing library for graphics and gradle as a dependency manager. In the game, the player must be able to move chess pieces on a chess board in order to play against an AI, ultimately capturing the opponent’s pieces and executing a strategy to checkmate the opponent’s king.
 Here's a [similar game]([https://www.youtube.com/watch?v=uGjgxwiemms](https://www.chess.com/terms/xxl-chess)).
 
 ## Getting Started
@@ -44,7 +53,7 @@ highlights for particular reasons.
   * `Yellow` – the last piece to move, and the square it came from
   * `Dark red` – king on this square is currently in check, or checkmate (pieces that contribute to the checkmate are highlighted in light red)
  
-### JSON configuration file
+### Configuration
  
 * The initial piece layout is defined in a file named in the `layout` attribute of `config.json`. The layout file will contain a grid of text characters, where each character represents the piece that should be in that cell.
   
@@ -67,7 +76,19 @@ move.
 
 * To trigger a move, the player must first select a piece by clicking on the cell it’s located in. Then, click to the cell the piece should move to. If the player instead selects one of their other pieces, then that piece becomes selected instead. If the player clicks on the selected piece again, or an invalid move, it becomes unselected.
 
+<p align='center'>
+  <img align='center' src='src/main/resources/XXLChess/move.png' width='450'/>
+</p>
+
 * Normal movement of pieces is described in the table above. The king, queen, bishop, knight, rook and pawn all have the same movement as in regular 8x8 chess. For the purposes of pawn movement, “forward” is considered going up the board for the human player, and going down the board for the computer player.
+
+<p align='center'>
+  <img align='center' src='src/main/resources/XXLChess/one.png' width='450'/>
+</p>
+
+<p align='center'>
+  <img align='center' src='src/main/resources/XXLChess/two.png' width='450'/>
+</p>
 
 * `Special moves`
   * A pawn can move two squares forward if it is located on 2nd row from the top or bottom of the board (rank 2 and rank 13), and has not moved before.
@@ -84,7 +105,7 @@ the cell occupied by that piece.
 
 Examples of possible moves for each piece are shown below.
 
-### Check and Checkmate
+### Check-and-Checkmate
 
 * If after a move, a king is under attack, the king is said to be in `check`.
 Under this circumstance, the player whose king is in check must do one
@@ -113,7 +134,7 @@ of the following (all must already be legal moves):
 when selecting a piece to potentially move it – only legal moves should be
 highlighted.
 
-### AI movement
+### AI-movement
 
 * Value of a move is tile value + piece value. The computer will choose the move with highest value.
 * If there are multiple highest-value move, a random move will be chosen.
@@ -124,7 +145,7 @@ highlighted.
 </p>
 
 
-### Win and lose conditions
+### Win-and-Lose-conditions
 
 * The game ends when either one player runs out of time, or their king is checkmated. Then other player wins.
 
