@@ -12,5 +12,5 @@ mac - jdk 8
   * Press `C` for `hard`
 
 <p align='center'>
-  <img align='center' src='readme-resources/check.gif' width='450'/>
+  <img align='center' src='src/resources/XXLChess/check.gif' width='450'/>
 </p>
