@@ -15,10 +15,7 @@
 **[Ai movement](#AI-movement)**<br>
 **[Win and lose conditions](#Win-and-Lose-conditions)**<br>
 **[Extensions](#Extensions)**<br>
-
-
-
-
+**[Acknowledgement](#Acknowledgement)**<br>
 
 ## Overview
 We are creating a game in Java using the Processing library for graphics and gradle as a dependency manager. In the game, the player must be able to move chess pieces on a chess board in order to play against an AI, ultimately capturing the opponent’s pieces and executing a strategy to checkmate the opponent’s king.
@@ -162,3 +159,8 @@ highlighted.
 ### Extensions
 
 * Sound effect
+
+### Acknowledgement
+
+The codebase is provided by unit **INFO1113 - University of Sydney.**
+
