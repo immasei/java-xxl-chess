@@ -1,4 +1,4 @@
-# java-xxl-chess
+# XXL Chess
 
 <p align='center'>
   <img align='center' src='src/main/resources/XXLChess/norm.gif' width='450'/>
