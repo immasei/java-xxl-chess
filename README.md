@@ -79,14 +79,6 @@ move.
 
 * Normal movement of pieces is described in the table above. The king, queen, bishop, knight, rook and pawn all have the same movement as in regular 8x8 chess. For the purposes of pawn movement, “forward” is considered going up the board for the human player, and going down the board for the computer player.
 
-<p align='center'>
-  <img align='center' src='src/main/resources/XXLChess/one.png' width='450'/>
-</p>
-
-<p align='center'>
-  <img align='center' src='src/main/resources/XXLChess/two.png' width='450'/>
-</p>
-
 * `Special moves`
   * A `pawn` can move `two squares forward` if it is located on 2nd row from the top or bottom of the board (rank 2 and rank 13), and has not moved before.
   * A `king` may perform a `castling` move if it has not moved before, which allows it to move two squares horizontally in either direction so long as there is also a rook towards the direction it will move (on the same rank), and that rook hasn’t moved. When this move is performed, the rook is placed on the other side of the king, adjacent to it.
@@ -101,6 +93,14 @@ board. All pieces capture on the same tiles as their regular movement, with the 
 the cell occupied by that piece.
 
 Examples of possible moves for each piece are shown below.
+
+<p align='center'>
+  <img align='center' src='src/main/resources/XXLChess/one.png' width='450'/>
+</p>
+
+<p align='center'>
+  <img align='center' src='src/main/resources/XXLChess/two.png' width='450'/>
+</p>
 
 ### Check-and-Checkmate
 
