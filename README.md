@@ -92,7 +92,7 @@ move.
 board. All pieces capture on the same tiles as their regular movement, with the only exception being pawns which capture diagonally forwards instead, if there is a piece there. This is the only time they are allowed to move diagonally. If there is a piece directly in front of a pawn, it is blocked and cannot move to
 the cell occupied by that piece.
 
-Examples of possible moves for each piece are shown below.
+* Examples of possible moves for each piece are shown below.
 
 <p align='center'>
   <img align='center' src='src/main/resources/XXLChess/one.png' width='450'/>
