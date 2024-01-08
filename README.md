@@ -88,8 +88,8 @@ move.
 </p>
 
 * `Special moves`
-  * A pawn can move two squares forward if it is located on 2nd row from the top or bottom of the board (rank 2 and rank 13), and has not moved before.
-  * A king may perform a `castling` move if it has not moved before, which allows it to move two squares horizontally in either direction so long as there is also a rook towards the direction it will move (on the same rank), and that rook hasn’t moved. When this move is performed, the rook is placed on the other side of the king, adjacent to it.
+  * A `pawn` can move `two squares forward` if it is located on 2nd row from the top or bottom of the board (rank 2 and rank 13), and has not moved before.
+  * A `king` may perform a `castling` move if it has not moved before, which allows it to move two squares horizontally in either direction so long as there is also a rook towards the direction it will move (on the same rank), and that rook hasn’t moved. When this move is performed, the rook is placed on the other side of the king, adjacent to it.
   * `Pawn promotion`: When a pawn reaches the 8th rank (ie. when it crosses the halfway point on the 14x14 board), then it is promoted to a queen. It immediately turns into a queen and can be used as such in all subsequent moves
  
 <p align='center'>
