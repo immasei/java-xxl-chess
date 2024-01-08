@@ -27,7 +27,7 @@ Here's a [similar game]([https://www.youtube.com/watch?v=uGjgxwiemms](https://ww
 
 * Java 8
 * Gradle 8.3
-* Processing library (specifically processing.core and processing.data)
+* Java Processing library (specifically processing.core and processing.data)
 
 ### Execute
 
