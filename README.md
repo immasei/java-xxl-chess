@@ -133,7 +133,7 @@ highlighted.
 
 ### AI-movement
 
-* Value of a move is tile value + piece value. The computer will choose the move with highest value.
+* Value of a move is tile value (default 0) + piece value. The computer will choose the move with highest value.
 * If there are multiple highest-value move, a random move will be chosen.
 * If its king is under attack, it follows same rules as in `Check and Checkmate`.
 
