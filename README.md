@@ -162,5 +162,5 @@ highlighted.
 
 ### Acknowledgement
 
-The codebase is provided by unit **INFO1113 - University of Sydney.**
+The initial project setup was provided by **INFO1113 - University of Sydney**. All functionalities were implemented by me, unless otherwise noted.
 
