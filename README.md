@@ -162,5 +162,5 @@ highlighted.
 
 ### Acknowledgement
 
-The initial project setup was provided by **INFO1113 - University of Sydney**. All functionalities were implemented by me, unless otherwise noted.
+The initial project setup was provided by **INFO1113 - University of Sydney**. All functionalities were implemented by me (including the graphics), unless otherwise noted.
 
